@@ -1,0 +1,261 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  font-size: 1.6rem;
+  margin: 0 auto;
+  max-width: 60rem;
+}
+img {
+  wax-width: 120%;
+  width: 20rem;
+}
+p {
+  line-height: 1.25;
+  margin: 1rem 0;
+  font-size: 1.6rem;
+}
+h1 {
+  margin: 2rem 0;
+  font-size: 2.5rem;
+}
+div {
+  padding: 1rem;
+}
+header nav {
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+}
+@media (max-width: 50rem) {
+  header nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+header nav a {
+  text-decoration: none;
+  color: black;
+  margin: 0 auto;
+}
+@media (max-width: 50rem) {
+  header nav a {
+    margin: 2rem 0;
+    font-size: 3rem;
+    align-content: center;
+  }
+}
+header nav a:hover {
+  color: grey;
+  font-size: 2rem;
+}
+@media (max-width: 50rem) {
+  header nav a:hover {
+    font-size: 3rem;
+    border-bottom: 1px solid white;
+    color: grey;
+  }
+}
+.main-container {
+  background-color: lightgrey;
+}
+.main-container img {
+  padding: 0.3rem;
+  background-color: black;
+}
+@media (max-width: 50rem) {
+  .main-container img {
+    width: 30rem;
+    margin-left: 11rem;
+  }
+}
+.main-container button {
+  background: grey;
+  color: white;
+  border-radius: 30px;
+  font-size: 1.2rem;
+}
+.main-container button:hover {
+  font-size: 1.6rem;
+  background: #3299dd;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 50rem) {
+  .content {
+    flex-direction: column;
+  }
+  .content h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 50rem) {
+  .content .about-myself {
+    padding: 2rem;
+    border-bottom: 1px solid black;
+  }
+}
+.content .skill-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 50rem) {
+  .content .skill-section {
+    flex-direction: column;
+  }
+}
+.content .skill-section .skills p {
+  border-bottom: 1px solid lightgrey;
+  padding: 0;
+}
+@media (max-width: 50rem) {
+  .content .skill-section .skills p {
+    border-bottom: 1px solid white;
+  }
+}
+.work-history {
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  font-size: 1.2rem;
+}
